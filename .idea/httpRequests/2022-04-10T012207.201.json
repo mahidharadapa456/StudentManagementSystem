@@ -1,0 +1,10 @@
+{
+  "message": "Success",
+  "user": {
+    "userName": "Jason",
+    "password": "$2b$10$kyBk/qaQu5Rmcpt5duzjWuSdQpiEw9rbzUuMXqMOXOJxta7chb4ue",
+    "email": "jason@gmail.com",
+    "_id": "6251eaee6fc6869835e61d7d",
+    "__v": 0
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+    <title>Student Management System - SMS | Courses</title>
+  </head>
+  <body>
+    <div class="wrapper d-flex">
+      <%- include("_sideBar") -%>
+      <main class="main-section container-lg">
+        <secton class="courses mt-3">
+          <h3 class="mt-4">Courses</h3>
+          <a href="/course/new" class="btn btn-success">New Course</a>
+          <div class="row mt-3 gy-3">
+            <% courses.forEach((course) => { %>
+            <div class="col-md-4">
+              <div class="bg-light shadow-sm py-2 px-2">
+                <h3 class="fs-4"><%= course.courseName %></h3>
+                <span class="badge bg-info text-uppercase"
+                  ><%= course.courseCode %></span
+                >
+                <span class="badge bg-warning text-uppercase"
+                  ><%= course.courseType %></span
+                >
+                <span class="badge bg-dark text-uppercase"
+                  ><%= course.courseDuration %></span
+                >
+                <p class="lead"><%= course.courseDescription %></p>
+                <div class="card-btns d-flex align-items-center gap-2">
+                  <a
+                    href="/course/getCourse/<%= course._id %>"
+                    class="btn-primary btn"
+                  >
+                    Read More
+                  </a>
+                  <form>
+                    <button
+                      class="btn btn-danger"
+                      type="submit"
+                      value="Delete"
+                      formaction="/course/<%= course._id %>?_method=DELETE"
+                      formmethod="post"
+                    >
+                      Delete
+                    </button>
+                  </form>
+                  <a href="/course/edit/<%= course._id %>" class="btn btn-success"
+                    >Edit
+                  </a>
+                </div>
+              </div>
+            </div>
+            <%} ) %>
+          </div>
+        </secton>
+      </main>
+    </div>
+
+    <!--  js -->
+    <script src="/js/main.js"></script>
+    <!-- Bootstap Javasctipt link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

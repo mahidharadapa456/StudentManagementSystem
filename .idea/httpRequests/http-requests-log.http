@@ -1,0 +1,516 @@
+GET http://localhost:3000
+Accept: application/json,
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU3M2QwMDcyNDVkNWYzOWVkOTgzZTciLCJpYXQiOjE2NTAwOTI3ODN9.RbFgPjnWUZymiu2LlkbWa2LXPEZdR9NOIOWJNOv7PMs
+
+<> 2022-04-16T121758.200.html
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MjU3M2QwMDcyNDVkNWYzOWVkOTgzZTciLCJpYXQiOjE2NTAwOTI3ODN9.RbFgPjnWUZymiu2LlkbWa2LXPEZdR9NOIOWJNOv7PMs
+
+<> 2022-04-16T120925.200.html
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+<> 2022-04-16T120623.200.json
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MjAwMn0.EX272uQ3-5J32Jc36svIxBSeHXpM3UhtSph931oKAmc"
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+<> 2022-04-16T004642.200.json
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MTI5MX0.uLHh5zTwIuioEssE1njbytXTAfPZ-RLLsojThmaOJQM"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MTI5MX0.uLHh5zTwIuioEssE1njbytXTAfPZ-RLLsojThmaOJQM"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MTI5MX0.uLHh5zTwIuioEssE1njbytXTAfPZ-RLLsojThmaOJQM"
+
+###
+
+GET http://localhost:3000
+Accept: application/json,
+authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiQWJkdWxsYSIsImlhdCI6MTY1MDA1MTI5MX0
+.uLHh5zTwIuioEssE1njbytXTAfPZ-RLLsojThmaOJQM":
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+<> 2022-04-16T003451.200.json
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+<> 2022-04-16T003352.200.json
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+<> 2022-04-16T003231.200.json
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+GET http://localhost:3000
+Accept: application/json
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Abdulla",
+"password": "Qodirov",
+"email": "abd@gmail.com"
+}
+
+<> 2022-04-14T024921.201.json
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Abdulla",
+"password": "Qodirov",
+"email": "abd@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+accept: application/json
+content-type: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+content-type: application/json
+accept: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signIn
+content-type: application/json
+accept: application/json
+
+{
+  "email": "abd@gmail.com",
+  "password": "Qodirov"
+}
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Abdulla",
+"password": "Qodirov",
+"email": "abd@gmail.com"
+}
+
+<> 2022-04-14T021407.201.json
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Abdulla",
+"password": "Qodirov",
+"email": "abd@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Abdulla",
+"password": "Qodirov",
+"email": "abd@gmail.com"
+}
+
+<> 2022-04-14T021336.201.json
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Abdulla",
+"password": "Qodirov",
+"email": "abd@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Abdulla",
+"password": "Qodirov",
+"email": "abd@gmail.com"
+}
+
+<> 2022-04-14T021222.201.json
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Abdulla",
+"password": "Qodirov",
+"email": "abd@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Jason",
+"password": "jasonsturo",
+"email": "jason@gmail.com"
+}
+
+<> 2022-04-10T012207.201.json
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "",
+"password": "jasonsturo",
+"email": "jason@gmail.com"
+}
+
+<> 2022-04-10T012109.400.html
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userNam": "Edward",
+"password": "jasonsturo",
+"email": "jason@gmail.com"
+}
+
+<> 2022-04-10T012051.400.html
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userNam": "Edward",
+"password": "jasonsturo",
+"email": "jason@gmail.com"
+}
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userNam": "Edward",
+"password": "edward2211",
+"email": "edward@gmail.com"
+}
+
+<> 2022-04-10T011722.201.json
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Admin",
+"password": "admin12345",
+"email": "xurrambeks@gmail.com"
+}
+
+<> 2022-04-10T011337.201.json
+
+###
+
+POST http://localhost:3000/signUp
+Accept: application/json,
+content-type: application/json
+
+{
+"userName": "Admin",
+"password": "admin12345",
+"email": "xurrambeks@gmail.com"
+}
+
+###

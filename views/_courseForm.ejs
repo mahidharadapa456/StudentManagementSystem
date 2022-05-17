@@ -1,0 +1,66 @@
+<div class="form-group mb-3">
+  <label for="courseType">Select course type</label>
+  <select
+    name="courseType"
+    id="courseType"
+    class="form-select"
+    aria-label="Choose course type"
+  >
+    <option selected>Choose course type</option>
+    <option value="Core">Core</option>
+    <option value="Optional">Optional</option>
+  </select>
+</div>
+<div class="form-group mb-3">
+  <label for="courseName" class="form-label">Course name</label>
+  <input
+    type="text"
+    class="form-control"
+    value="<%= courseName %>"
+    name="courseName"
+    id="courseName"
+    placeholder="Type course name..."
+    required
+  />
+</div>
+<div class="form-group mb-3">
+  <label for="courseCode" class="form-label">Module code</label>
+  <input
+    type="text"
+    class="form-control"
+    value="<%= courseCode %>"
+    name="courseCode"
+    id="courseCode"
+    placeholder="Type module code..."
+    required
+  />
+</div>
+<div class="form-group mb-3">
+  <label for="courseDuration" class="form-label">Course duration </label>
+  <select
+    type="text"
+    class="form-select"
+    name="courseDuration"
+    id="courseDuration"
+    placeholder="Choose duration"
+    required
+  >
+    <option>Choose module duration</option>
+    <option value="One semester">One Semester</option>
+    <option value="Full year">Full year</option>
+  </select>
+</div>
+<div class="form-floating mb-3">
+  <textarea
+    class="form-control"
+    name="courseDescription"
+    placeholder="Leave a comment here"
+    id="courseDescription"
+    style="height: 150px"
+  >
+  <%= courseDescription %>
+  </textarea>
+  <label for="courseDescription">Course description</label>
+</div>
+<a href="/course" class="btn btn-danger">Cancel</a>
+<button type="submit" class="btn btn-secondary">Create</button>
